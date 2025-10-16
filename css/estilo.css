@@ -1,0 +1,75 @@
+.grid-personajes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.personaje-card {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.personaje-card:hover {
+  transform: scale(1.05);
+}
+
+.personaje-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.rejilla-personajes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.personaje-card {
+  background: #111;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.personaje-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.personaje-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.personaje-card p {
+  color: #fff;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.personaje-card button {
+  background: #0084ff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.personaje-card button:hover {
+  background: #0068cc;
+    }
